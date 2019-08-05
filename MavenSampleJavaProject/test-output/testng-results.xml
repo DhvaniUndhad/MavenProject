@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19862" started-at="2019-07-30T02:23:07Z" finished-at="2019-07-30T02:23:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19862" started-at="2019-07-30T02:23:07Z" finished-at="2019-07-30T02:23:27Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:Academy.HomePage@161b062a]" name="initialization" is-config="true" duration-ms="2016" started-at="2019-07-29T19:23:07Z" finished-at="2019-07-29T19:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="BasePagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@161b062a]" name="BasePagenavigation" duration-ms="12337" started-at="2019-07-29T19:23:09Z" data-provider="getData" finished-at="2019-07-29T19:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhvani@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePagenavigation -->
+        <test-method status="PASS" signature="BasePagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@161b062a]" name="BasePagenavigation" duration-ms="5372" started-at="2019-07-29T19:23:21Z" data-provider="getData" finished-at="2019-07-29T19:23:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivek@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePagenavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@161b062a]" name="tearDown" is-config="true" duration-ms="121" started-at="2019-07-29T19:23:26Z" finished-at="2019-07-29T19:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

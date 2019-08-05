@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+      <class name="Academy.validateText">
+        <methods>
+          <include name="initialization"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.validateText -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initialization"/>
+          <include name="BasePagenavigation" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="initialization"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
